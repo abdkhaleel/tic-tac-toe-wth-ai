@@ -1,0 +1,32 @@
+<div class="game-container">
+  <h1>Tic Tac Toe</h1>
+
+  <header class="game-header">
+    <div class="mode-selector">
+      <button 
+        (click)="gameService.setGameMode('vsPlayer')"
+        [class.active]="gameService.gameMode === 'vsPlayer'">
+        Player vs Player
+      </button>
+      <button 
+        (click)="gameService.setGameMode('vsAI')"
+        [class.active]="gameService.gameMode === 'vsAI'">
+        Player vs AI
+      </button>
+    </div>
+  
+    <h2 class="game-status">
+      <span *ngIf="!gameService.winner">Current Player: {{ gameService.player }}</span>
+      <span *ngIf="gameService.winner">Player {{ gameService.winner }} won the game!</span>
+    </h2>
+  </header>
+  
+  <main>
+    <div 
+      class="square" 
+      *ngFor="let val of gameService.squares; let i = index"
+      (click)="gameService.makeMove(i)">
+      {{ val }}
+    </div>
+  </main>
+</div>
