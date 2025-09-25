@@ -66,7 +66,8 @@ This project was built to serve as a practical guide and demonstrates a wide ran
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/abdkhaleel/tic-tac-toe-wth-ai.git
-    ```2.  **Navigate to the project directory:**
+    ```
+    2.  **Navigate to the project directory:**
     ```bash
     cd tic-tac-toe-wth-ai
     ```
