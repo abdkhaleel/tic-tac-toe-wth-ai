@@ -2,6 +2,10 @@
 
 This project is a fully-featured Tic-Tac-Toe game built from the ground up with Angular. It was developed as a step-by-step, practical learning project to explore core and advanced Angular concepts. The game features a sleek, responsive, neon-themed user interface and two distinct game modes: a classic Player vs. Player and a challenging Player vs. AI mode, which uses the MiniMax algorithm to ensure the AI is unbeatable.
 
+## 🎮 Live Demo
+
+**Try the game now:** [https://tic-tac-toe-wth-ai.vercel.app/](https://tic-tac-toe-wth-ai.vercel.app/)
+
 <br/>
 
 ---
@@ -23,6 +27,7 @@ This project is a fully-featured Tic-Tac-Toe game built from the ground up with 
 *   **Language:** [TypeScript](https://www.typescriptlang.org/)
 *   **Styling:** CSS3 (utilizing Flexbox, CSS Grid, Custom Properties, and Media Queries)
 *   **Core Tooling:** [Angular CLI](https://angular.io/cli)
+*   **Deployment:** [Vercel](https://vercel.com/)
 
 ---
 
@@ -84,3 +89,9 @@ This project was built to serve as a practical guide and demonstrates a wide ran
     ```
 2.  **Open your browser:**
     Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+---
+
+## Deployment
+
+The application is deployed on Vercel and automatically updates with each push to the main branch. You can access the live version at: **[https://tic-tac-toe-wth-ai.vercel.app/](https://tic-tac-toe-wth-ai.vercel.app/)**
