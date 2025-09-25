@@ -2,6 +2,8 @@
 
 This project is a fully-featured Tic-Tac-Toe game built from the ground up with Angular. It was developed as a step-by-step, practical learning project to explore core and advanced Angular concepts. The game features a sleek, responsive, neon-themed user interface and two distinct game modes: a classic Player vs. Player and a challenging Player vs. AI mode, which uses the MiniMax algorithm to ensure the AI is unbeatable.
 
+<br/>
+
 ---
 
 ## Features
