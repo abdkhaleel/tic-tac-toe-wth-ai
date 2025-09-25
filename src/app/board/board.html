@@ -16,8 +16,15 @@
     </div>
   
     <h2 class="game-status">
-      <span *ngIf="!gameService.winner">Current Player: {{ gameService.player }}</span>
-      <span *ngIf="gameService.winner">Player {{ gameService.winner }} won the game!</span>
+    <span *ngIf="!gameService.winner">Current Player: {{ gameService.player }}</span>
+
+    <span *ngIf="gameService.winner === 'X' || gameService.winner === 'O'">
+        Player {{ gameService.winner }} won the game!
+    </span>
+
+    <span *ngIf="gameService.winner === 'draw'">
+        It's a Draw!
+    </span>
     </h2>
   </header>
   
